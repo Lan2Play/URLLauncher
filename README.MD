@@ -1,6 +1,6 @@
 # URLLauncher
 
-A Little Software that removes an URL Prefix from the passed url and adds it to the end of the arguments parameter which then gets passed to the destination software. It becomes handy to use custom URL Handlers on windows with software that dont support handling full urls in Parameters.
+A Little software that removes an url prefix from the passed url and adds it to the end of the arguments parameter which then gets passed to the destination software. It becomes handy to use custom url handlers on windows with software that dont support handling full urls in Parameters.
 
 
 # Usage
@@ -8,7 +8,7 @@ A Little Software that removes an URL Prefix from the passed url and adds it to 
 
 # Building
 
-To Build the Software, the Dotnetcore SDK 3..1 is required. https://dotnet.microsoft.com/download
+To build the software, the dotnetcore SDK 3..1 is required. https://dotnet.microsoft.com/download
 
     dotnet.exe publish -c Release -p:PublishSingleFile=true -r win-x64
 
