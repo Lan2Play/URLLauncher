@@ -4,7 +4,7 @@ A Little software that removes an url prefix from the passed url and adds it to 
 
 
 # Usage
-    urllauncher.exe <url> <software to startup> <software to startup args>
+    urllauncher.exe <url> <software to startup> <software to startup args> <optional: true for removing the end / of the url>
 
 # Building
 
