@@ -10,6 +10,6 @@ A Little software that removes an url prefix from the passed url and adds it to 
 
 To build the software, the dotnetcore SDK 3..1 is required. https://dotnet.microsoft.com/download
 
-    dotnet.exe publish -c Release -p:PublishSingleFile=true -r win-x64
+    dotnet.exe publish -c Release -p:PublishSingleFile=true -r win-x64 --self-contained true -p:PublishTrimmed=true
 
 The single exe file can now be found in bin\Release\netcoreapp3.1\win-x64\publish
